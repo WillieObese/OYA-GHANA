@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 @when(u'Go to homepage')
 def step_impl(context):
-    context.driver.get("https://test.oyaghana.com")
+    context.driver.get("https://oyaghana.com")
 
 
 @when(u'open chat')

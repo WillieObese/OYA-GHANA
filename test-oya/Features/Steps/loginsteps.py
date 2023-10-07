@@ -8,7 +8,7 @@ def openBrowser(context):
 
 @when(u'Open login page')
 def openLoginPage(context):
-    context.driver.get("https://accounts.test.oyaghana.com/login")
+    context.driver.get("https://accounts.oyaghana.com/login")
 
 
 @when(u'Enter phone "{phone}" and pin {pin}"')

@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 @when(u'Home page')
 def homePage(context):
-    context.driver.get("https://test.oyaghana.com/")
+    context.driver.get("https://oyaghana.com/")
 
 @when(u'Click on footer "<footer>"')
 def step_impl(context):
